@@ -4,3 +4,10 @@ Theme: Restuarant food Order
 Version: 1.0
 
 */
+
+
+.container{
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 80%;
+}
