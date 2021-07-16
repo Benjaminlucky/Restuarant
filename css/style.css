@@ -5,6 +5,9 @@ Version: 1.0
 
 */
 
+
+/* Css for All Navbar Section */
+
 *{
     margin: 0 0;
     padding: 0 0;
@@ -19,14 +22,33 @@ Version: 1.0
 }
 
 
+.text-right{
+    text-align: right;
+}
+
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
 /* Css for Navbar Section */
 
 
 .logo{
     border: 1px solid black;
     width: 10%;
+    float: left;
 }
 
 .img-responsive{
     width: 100%;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
 }
