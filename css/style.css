@@ -26,10 +26,39 @@ Version: 1.0
     text-align: right;
 }
 
+.text-center{
+    text-align: center;
+}
 
 .clearfix{
     clear: both;
     float: none;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+.btn-primary{
+    background-color: #e74c3c;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: #c0392b;
+}
+
+a{
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#c0392b;
 }
 
 /* Css for Navbar Section */
@@ -45,10 +74,35 @@ Version: 1.0
     width: 100%;
 }
 
+.menu{
+    line-height: 60px;
+}
+
 .menu ul {
     list-style-type: none;
 }
 
 .menu ul li{
     display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* CSS for food search section*/
+
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border:none;
+    outline: none;
+    border-radius: 3px;
 }
