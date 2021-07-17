@@ -52,6 +52,29 @@ Version: 1.0
     background-color: #c0392b;
 }
 
+h2{
+    color: #34495e;
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+.text-white{
+   color: white; 
+}
+
 a{
     color: #e74c3c;
     text-decoration: none;
@@ -72,6 +95,10 @@ a:hover{
 
 .img-responsive{
     width: 100%;
+}
+
+.img-curve{
+   border-radius: 15px; 
 }
 
 .menu{
@@ -105,4 +132,18 @@ a:hover{
     border:none;
     outline: none;
     border-radius: 3px;
+}
+
+
+/* CSS for Categories*/
+
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    border: 1px solid black;
+    width: 20%;
+    float: left;
+    margin: 2%;
 }
