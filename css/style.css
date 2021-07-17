@@ -49,6 +49,7 @@ Version: 1.0
 }
 
 .btn-primary:hover{
+    color: white;
     background-color: #c0392b;
 }
 
@@ -146,4 +147,46 @@ a:hover{
     width: 20%;
     float: left;
     margin: 2%;
+}
+
+
+/* CSS for food menu */
+
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+
+
+.food-menu-box{
+    border: 1px solid black;
+    width: 41%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.food-menu-img{
+    width: 20%;
+    cursor: pointer;
+    float: left;
+    margin: auto 0;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+   font-size: 1.2rem; 
+   margin: 2% 0;
+}
+
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
 }
