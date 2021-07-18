@@ -16,7 +16,6 @@ Version: 1.0
 
 .container{
     margin: 0 auto;
-    border: 1px solid red;
     width: 80%;
     padding: 1%;
 }
@@ -56,6 +55,7 @@ Version: 1.0
 h2{
     color: #34495e;
     font-size: 2rem;
+    margin-bottom: 2%;
 }
 
 h3{
@@ -89,7 +89,6 @@ a:hover{
 
 
 .logo{
-    border: 1px solid black;
     width: 10%;
     float: left;
 }
@@ -140,14 +139,19 @@ a:hover{
 
 .categories{
     padding: 4% 0;
+    width: 100%;
 }
 
 .box-3{
-    border: 1px solid black;
     width: 20%;
     float: left;
     margin: 2%;
 }
+
+.food-category{
+    margin: 0 auto;
+}
+
 
 
 /* CSS for food menu */
@@ -159,13 +163,13 @@ a:hover{
 
 
 .food-menu-box{
-    border: 1px solid black;
     width: 41%;
     margin: 1%;
     padding: 2%;
     float: left;
     border-radius: 15px;
     background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .food-menu-img{
@@ -189,4 +193,78 @@ a:hover{
 .food-detail{
     font-size: 1rem;
     color: #747d8c;
+}
+
+
+/* CSS for social */
+
+.social-media ul{
+    list-style: none;
+}
+
+.social-media ul li{
+    display: inline;
+    padding: 1%;
+}
+
+
+/* CSS for mobile size or smaller screen*/
+
+@media only screen and (max-width:768px){
+    .logo{
+      width: 80%;  
+      float: none;
+      margin: 2% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+       width: 91%; 
+       padding: 2%; 
+       box-shadow: 0 5px 10px rgb(0 0 0 / 0.3);
+    }
+
+    .food-search{
+        padding: 10% 0; 
+     }
+ 
+    .categories{
+        padding: 15% 0;
+    } 
+
+    h2{
+        margin-bottom: 10%;
+    }
+
+    .box-3{
+        width: 90%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 4%;
+    }
+
+    .social-media{
+        padding: 5% 0;
+    }
+
+    .footer{
+        padding: 5% 0;
+    }
 }
